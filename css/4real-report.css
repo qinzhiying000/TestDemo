@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	background: url(../img/4.real-report.png) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	overflow-x:hidden ;
+}
+h2{
+	text-align: center;
+	margin: 1vh 0;
+}
+/*是否实名举报*/
+.top{
+	width: 100vw;
+	/*height: 20vh;*/
+	background-color: rgb(235,245,244);
+	position: relative;
+}
+strong{
+	display: inline-block;
+	margin-left: 5vw;
+	margin-bottom: 15px;
+	margin: 10px 0 10px 5vw;
+}
+.tog{
+	display: none;
+}
+
+.is-realname input,.be-checked input{
+	width: 90vw;
+	margin-left: 4vw;
+	padding: 3vh 1vw ;
+	margin-bottom:10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: .8em;
+}
+.pos{
+	left: 0;
+}
+.btn{
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+    right: 5vw;
+	width: 2.3em;
+	height: 1.1em;
+	border-radius: 1.1em;
+	background-color: rgb(54,132,241);	
+}
+.btn span{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1.1em;
+	height: 1.1em;
+	border-radius: 1.1em;
+	background-color: white
+}
+.checked-sunmary{
+	width: 84vw;
+	line-height: 20px;
+	margin-left: 5vw;
+	padding: 3px 3vw;
+	border: 1px solid lightgrey;
+	color: gray;
+	display: block;
+	margin-bottom: 5px;
+	display: none;
+}
+.notog{
+	display: block;
+}
+/*被举报人信息*/
+.be-checked{
+	width: 100vw;
+	margin-top: 10px;
+	background-color: rgb(235,245,244);
+}
+.qusetion{
+	margin:0 0 8px 5vw;
+}
+select{
+	margin-left: 5vw;
+	width: 40vw;
+	font-size: 1em;
+	padding: 3px 2px;
+	color: gray;
+	background-color: white;
+	border: none;
+	outline: none;
+	appearance:none;
+	-moz-appearance:none;
+    -webkit-appearance:none;
+}
+.container1{
+	width: 45vw;
+	position: relative;
+	display: inline-block;
+}
+.container1:after{
+	content: " ";
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	transform: rotate(135deg);
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+.container2{
+	width: 45vw;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 5vw;
+}
+.container2:after{
+	content: " ";
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	transform: rotate(135deg);
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+.texts{
+	margin: 0px 5vw 5px;
+}
+textarea{
+	width: 90vw;
+	margin-left: 5vw;
+	outline: none;
+	resize: none;
+	border: none;
+	padding: 3px 5px;
+	font-size: 1em;
+	height: 20vh;
+}
+.addfile{
+	display: inline-block;
+	width: 90vw;
+	margin-left: 5vw;
+	margin-bottom: 0.5em;
+	outline: none;
+	border: 2px solid dodgerblue;
+	text-align: center;
+	font-size: 1em;
+	color: dodgerblue;
+	position: relative;
+	padding: 10px 0;
+	margin-top: 5px;
+	background-color:rgb(191,214,215) ;
+}
+.addfile input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+}
+.addfile+em{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../img/tanhao.png) no-repeat;
+	background-size: cover;
+	margin-left: 5vw;
+	float: left;
+}
+.addfile+em+span{
+	display: inline-block;
+	width: 90vw;
+	margin-left: 0;
+	text-align: start;
+}
+.submit{
+	width: 90vw;
+	margin: 10px 5vw;
+	padding: .5em 0;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(0,115,250)
+}
